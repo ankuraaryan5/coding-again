@@ -8,8 +8,9 @@ Focus is on building logic step-by-step from basics to advanced.
 ## 🟢 1. Patterns (Logic Building)
 **Focus:** loops, symmetry, thinking
 
-- Print pyramid, inverted pyramid  
-- Diamond pattern  
+- Print pyramid -- https://github.com/ankuraaryan5/coding-again/blob/main/Pyramid.java
+- Inverted pyramid  -- https://github.com/ankuraaryan5/coding-again/blob/main/InvertedPyramid.java
+- Diamond pattern  -- https://github.com/ankuraaryan5/coding-again/blob/main/Diamond.java
 - Floyd’s triangle  
 - Pascal’s triangle  
 - Number palindrome pyramid  
@@ -18,7 +19,20 @@ Focus is on building logic step-by-step from basics to advanced.
 
 ---
 
-## 🟢 2. Basic Arrays
+## 🟢 2. Number Theory (MUST for Aptitude + Logic)
+**Focus:** mathematical thinking, optimization
+
+- Check prime number  
+- Sieve of Eratosthenes  
+- GCD / LCM  
+- Modular exponentiation  
+- Count factors / divisors  
+- Power of a number (fast exponentiation)  
+- Trailing zeros in factorial  
+
+---
+
+## 🟢 3. Basic Arrays
 **Focus:** traversal, brute force
 
 - Find largest & second largest  
@@ -31,7 +45,7 @@ Focus is on building logic step-by-step from basics to advanced.
 
 ---
 
-## 🟢 3. Searching & Sorting
+## 🟢 4. Searching & Sorting
 **Focus:** fundamentals of efficiency  
 
 ### 🔍 Searching
@@ -47,7 +61,7 @@ Focus is on building logic step-by-step from basics to advanced.
 
 ---
 
-## 🟢 4. Strings
+## 🟢 5. Strings
 **Focus:** manipulation + hashing
 
 - Reverse words in string  
@@ -60,7 +74,7 @@ Focus is on building logic step-by-step from basics to advanced.
 
 ---
 
-## 🟢 5. Recursion & Backtracking
+## 🟢 6. Recursion & Backtracking
 **Focus:** breaking problems
 
 - Print all subsequences  
@@ -73,7 +87,7 @@ Focus is on building logic step-by-step from basics to advanced.
 
 ---
 
-## 🟢 6. Linked List
+## 🟢 7. Linked List
 **Focus:** pointer handling
 
 - Reverse linked list  
@@ -86,7 +100,7 @@ Focus is on building logic step-by-step from basics to advanced.
 
 ---
 
-## 🟢 7. Stack & Queue
+## 🟢 8. Stack & Queue
 **Focus:** LIFO/FIFO applications  
 
 ### 📚 Stack
@@ -102,7 +116,7 @@ Focus is on building logic step-by-step from basics to advanced.
 
 ---
 
-## 🟢 8. Hashing
+## 🟢 9. Hashing
 **Focus:** optimization
 
 - Two Sum  
@@ -115,7 +129,7 @@ Focus is on building logic step-by-step from basics to advanced.
 
 ---
 
-## 🟢 9. Trees (VERY IMPORTANT)
+## 🟢 10. Trees (VERY IMPORTANT)
 **Focus:** recursion + structure
 
 - Inorder, preorder, postorder traversal  
@@ -128,7 +142,7 @@ Focus is on building logic step-by-step from basics to advanced.
 
 ---
 
-## 🟢 10. Binary Search Trees (BST)
+## 🟢 11. Binary Search Trees (BST)
 
 - Insert & delete in BST  
 - Validate BST  
@@ -140,7 +154,7 @@ Focus is on building logic step-by-step from basics to advanced.
 
 ---
 
-## 🟢 11. Heaps / Priority Queue
+## 🟢 12. Heaps / Priority Queue
 **Focus:** top-k problems
 
 - Kth largest element  
@@ -153,7 +167,7 @@ Focus is on building logic step-by-step from basics to advanced.
 
 ---
 
-## 🟢 12. Graphs (CORE INTERVIEW PART)
+## 🟢 13. Graphs (CORE INTERVIEW PART)
 **Focus:** traversal + thinking  
 
 ### 🌐 Basics
@@ -169,7 +183,7 @@ Focus is on building logic step-by-step from basics to advanced.
 
 ---
 
-## 🟢 13. Dynamic Programming (Hard but MUST)
+## 🟢 14. Dynamic Programming (Hard but MUST)
 **Focus:** optimization
 
 - Fibonacci (memoization/tabulation)  
@@ -182,7 +196,7 @@ Focus is on building logic step-by-step from basics to advanced.
 
 ---
 
-## 🟢 14. Greedy
+## 🟢 15. Greedy
 
 - Activity selection  
 - Fractional knapsack  
@@ -194,7 +208,7 @@ Focus is on building logic step-by-step from basics to advanced.
 
 ---
 
-## 🟢 15. Advanced (Optional but Powerful)
+## 🟢 16. Advanced (Optional but Powerful)
 
 - Trie implementation  
 - Word search (Trie + backtracking)  
