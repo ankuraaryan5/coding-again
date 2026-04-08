@@ -22,7 +22,8 @@ Focus is on building logic step-by-step from basics to advanced.
 ## 🟢 2. Number Theory (MUST for Aptitude + Logic)
 **Focus:** mathematical thinking, optimization
 
-- Check prime number  
+- Check prime number -- https://github.com/ankuraaryan5/coding-again/blob/main/isPrime.java 
+                        https://github.com/ankuraaryan5/coding-again/blob/main/arePrime.java
 - Sieve of Eratosthenes  
 - GCD / LCM  
 - Modular exponentiation  
