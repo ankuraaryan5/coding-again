@@ -11,7 +11,7 @@ Focus is on building logic step-by-step from basics to advanced.
 - Print pyramid -- https://github.com/ankuraaryan5/coding-again/blob/main/Pyramid.java
 - Inverted pyramid  -- https://github.com/ankuraaryan5/coding-again/blob/main/InvertedPyramid.java
 - Diamond pattern  -- https://github.com/ankuraaryan5/coding-again/blob/main/Diamond.java
-- Floyd’s triangle  
+- Floyd’s triangle  -- https://github.com/ankuraaryan5/coding-again/blob/main/Floyd.java
 - Pascal’s triangle  
 - Number palindrome pyramid  
 - Hollow square / hollow pyramid  
