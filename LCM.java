@@ -4,12 +4,12 @@ public class LCM {
       return (a*b)/gcd(a,b);
     }
     static int gcd(int a,int b){
-      for(int i=Math.min(a,b);i>0;i--){
-        if(a%i==0&&b%i==0){
-          return i;
-        }
+      while(b!=0){
+        int temp=b;
+        b=a%b;
+        a=temp;
       }
-      return 1;
+      return a;
     }
     public static void main(String[] args) {
       System.out.println("enter the two numbers: ");

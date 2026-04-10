@@ -2,12 +2,13 @@ import java.util.*;
 public class GCD {
     static int gcd(int a,int b){
       //  the largest positive integer that divides two or more integers without leaving a remainder
-      for(int i=Math.min(a,b);i>0;i--){
-        if(a%i==0&&b%i==0){
-          return i;
-        }
+      while(b!=0){
+        int temp=b;
+        b=a%b;
+        a=temp;
       }
-      return 1;
+      return a;
+      // this is eucladian algorithm
     }
     public static void main(String[] args) {
       System.out.println("enter the two numbers: ");
