@@ -24,7 +24,7 @@ Focus is on building logic step-by-step from basics to advanced.
 
 - Check prime number -- https://github.com/ankuraaryan5/coding-again/blob/main/isPrime.java 
 - Sieve of Eratosthenes  -- https://github.com/ankuraaryan5/coding-again/blob/main/arePrime.java
-- GCD / LCM  
+- GCD / LCM  -- https://github.com/ankuraaryan5/coding-again/blob/main/LCM.java
 - Modular exponentiation  
 - Count factors / divisors  
 - Power of a number (fast exponentiation)  
