@@ -1,11 +1,33 @@
 // Class representing a Student with basic attributes and behaviors
+// Demonstrates encapsulation by keeping attributes private and exposing controlled access via methods
 public class Student {
-    // Attributes of the Student
-    public int id;       // Unique identifier for the student
-    public int age;      // Age of the student
-    public String name;  // Name of the student
-    public int nos;      // Number of subjects (or any other numeric property)
+    // Attributes of the Student (kept private for data hiding)
+    private int id;       // Unique identifier for the student
+    private int age;      // Age of the student
+    private String name;  // Name of the student
+    private int nos;      // Number of subjects (or any other numeric property)
+    private String gf;    // Sensitive data (hidden from outside access)
 
+    // Getter methods provide controlled access to private attributes
+
+    public String getName(){
+        return this.name;
+    }
+    public int getAge(){
+        return this.age;
+    }
+
+    // Setter method allows controlled modification of private attributes
+    public void setAge(int age){
+        // this.age=age;
+        // adding an extra layer of authentication (example of encapsulation)
+        if(age<100){
+            this.age=age;
+        }
+    }
+    public void setName(String name){
+        this.name=name;
+    }
     // Default constructor
     // Called when no arguments are provided during object creation
     public Student() {
@@ -14,12 +36,13 @@ public class Student {
 
     // Parameterized constructor
     // Allows initializing the Student object with specific values
-    public Student(int id, int age, String name, int nos) {
+    public Student(int id, int age, String name, int nos, String gf) {
         System.out.println("Parameterized constructor called");
         this.id = id;
         this.age = age;
         this.name = name;
         this.nos = nos;
+        this.gf=gf;
     }
 
     // Copy constructor
@@ -45,5 +68,11 @@ public class Student {
     // Method to simulate bunking behavior
     public void bunk() {
         System.out.println(name + " bunking");
+    }
+
+    // Private method to simulate chatting behavior
+    // Demonstrates data hiding: cannot be accessed outside the class
+    private void gfChatting(){
+        System.out.println(name + " chatting");
     }
 }
