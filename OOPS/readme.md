@@ -238,5 +238,3 @@ Most beginner Java errors come from:
 * wrong compile location
 * missing public
 * wrong run command
-
-My logic was fine — structure was the real lesson today.
