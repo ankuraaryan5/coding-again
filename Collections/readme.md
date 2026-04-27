@@ -82,3 +82,113 @@ pop() → Remove and return top element.
 peek() → Return top element without removing.
 search() → Return position of element from top (1-based).
 empty() → Check if stack is empty.
+
+# Queue
+A Queue is a collection designed for holding elements prior to processing. It follows FIFO (First-In-First-Out) order.
+
+Common Implementations:
+
+LinkedList
+
+PriorityQueue
+
+ArrayDeque
+
+Methods:
+
+add() → throws exception if insertion fails
+
+offer() → returns false if insertion fails
+
+element() → retrieves head, throws exception if empty
+
+peek() → retrieves head, returns null if empty
+
+remove() → removes head, throws exception if empty
+
+poll() → removes head, returns null if empty
+
+# Deque
+A Deque (Double-Ended Queue) allows insertion and removal at both ends.
+It can act as both a queue (FIFO) and a stack (LIFO).
+
+Common Implementations:
+
+LinkedList
+
+ArrayDeque
+
+Methods:
+
+addFirst(), addLast()
+
+offerFirst(), offerLast()
+
+removeFirst(), removeLast()
+
+pollFirst(), pollLast()
+
+peekFirst(), peekLast()
+
+push() → add at front (stack behavior)
+
+pop() → remove from front (stack behavior)
+
+# Stack (via Deque)
+Stack is a LIFO (Last-In-First-Out) data structure.
+In modern Java, ArrayDeque is preferred over Stack class.
+
+Methods:
+
+push() → add element on top
+
+pop() → remove and return top element
+
+peek() → return top element without removing
+
+# PriorityQueue
+A PriorityQueue orders elements according to their priority.
+By default, it is a min-heap (smallest element has highest priority).
+
+Key Points:
+
+Printing the queue does not show sorted order, only internal heap structure.
+
+Use poll() repeatedly to retrieve elements in sorted order.
+
+Can be turned into a max-heap using a comparator:
+
+java
+Queue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);
+
+# Set
+A Set is a collection that stores unique elements (no duplicates).
+
+Common Implementations:
+
+HashSet → random ordering, O(1) access
+
+LinkedHashSet → preserves insertion order, O(n) access
+
+TreeSet → sorted order, O(log n) access
+
+Methods:
+
+add() → adds element (duplicates ignored)
+
+retainAll() → intersection of sets
+
+containsAll() → subset check
+
+Custom Objects in Set
+When storing custom objects (like Student) in a Set, you must override equals() and hashCode() to ensure duplicates are recognized.
+
+Example:
+
+java
+@Override
+public boolean equals(Object o) { ... }
+
+@Override
+public int hashCode() { ... }
+Without these overrides, two Student objects with the same data will be treated as different because the default equals() compares memory addresses.
