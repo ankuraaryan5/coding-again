@@ -84,13 +84,13 @@ public class Main2 {
         System.out.println(set1);
         System.out.println(set2.containsAll(set1));
         System.out.println(set1.containsAll(set2));
-        HashSet<Student> setnew= new HashSet<>();
-        Student s1= new Student(1, "Ankur");
-        Student s2= new Student(1, "Ankur");
-        Student s3= new Student(1, "Ankur");
-        setnew.add(s1);
-        setnew.add(s2);
-        setnew.add(s3);
-        System.out.println(setnew);
+        // HashSet<Student> setnew= new HashSet<>();
+        // Student s1= new Student(1, "Ankur");
+        // Student s2= new Student(1, "Ankur");
+        // Student s3= new Student(1, "Ankur");
+        // setnew.add(s1);
+        // setnew.add(s2);
+        // setnew.add(s3);
+        // System.out.println(setnew);
     }
 }

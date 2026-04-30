@@ -1,15 +1,17 @@
-public class Student {
-    int rollNo;
-    String name;
-
-    public Student(int rollNo, String name) {
+package  Collections;
+public class Student implements Comparable <Student>{
+    private int rollNo;
+    private String name;
+    public int weight;
+    public Student(int rollNo, String name, int weight) {
         this.rollNo = rollNo;
         this.name = name;
+        this.weight=weight;
     }
 
     @Override
     public String toString() {
-        return "Student[rollNo=" + rollNo + ", name=" + name + "]";
+        return "Student[rollNo=" + rollNo + ", name= " + name + ", weight= "+weight+ "\"]";
     }
     // [Student[rollNo=1, name=Ankur], Student[rollNo=1, name=Ankur], Student[rollNo=1, name=Ankur]]
     // we have to override equals and hashcode for saving it uniquely
@@ -32,4 +34,36 @@ public class Student {
         return result;
     }
     // [Student[rollNo=1, name=Ankur]]
+
+    public int getRollNo() {
+        return rollNo;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+    public void setRollNo(int rollNo) {
+        this.rollNo = rollNo;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+    // Implement Comparable
+    @Override
+    public int compareTo(Student that) {
+        // Example: sort by rollNo
+        if (this.rollNo==that.rollNo) {
+            this.name.compareTo(that.name);
+        }
+        return that.rollNo-this.rollNo;
+    }
 }

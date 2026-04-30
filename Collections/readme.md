@@ -192,3 +192,11 @@ public boolean equals(Object o) { ... }
 @Override
 public int hashCode() { ... }
 Without these overrides, two Student objects with the same data will be treated as different because the default equals() compares memory addresses.
+
+# Map
+elements are stored in key value pair
+contains unique keys, each key is associated with a single value
+can be implemented using hashmap, treemap, linkedhashmap, hashtable
+doesn't maintain any ordering
+allows null values
+hashmap allows one null key but hashtable doesnot
