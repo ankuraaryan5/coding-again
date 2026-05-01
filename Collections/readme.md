@@ -200,3 +200,6 @@ can be implemented using hashmap, treemap, linkedhashmap, hashtable
 doesn't maintain any ordering
 allows null values
 hashmap allows one null key but hashtable doesnot
+
+# Comparator
+The Comparator interface in Java is used to define custom ordering for objects. It allows sorting logic to be written outside the class, unlike Comparable which defines natural ordering inside the class.
